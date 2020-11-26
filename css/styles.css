@@ -1,0 +1,549 @@
+
+    /* font-family: 'Fjalla One', sans-serif;
+       font-family: 'Source Sans Pro', sans-serif; */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    font-size: 16px;
+}
+.container_menu-hamburguer{
+margin: 0;
+position: fixed;
+z-index: 400;
+top: 8px;
+left: 8px;
+display: none;
+}
+.hamburguer_menu{
+width: 50px;
+height: 50px;
+}
+
+.header{
+    background-color:black;
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header figure{
+    margin: 0px 0px 0px 20px;
+    width: 120;
+    height: 50px;
+}
+.header figure img{
+    width: inherit;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+}
+/* Selectores descendentes:Es un elemento hijo de cualquier otro selector de etiqueta ejemplo */
+header nav ul li a{
+    color: white;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+li{
+    height: inherit;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:'Fjalla One', sans-serif;
+}
+h1{
+    color: rgba(236, 252, 15, 0.993);
+    line-height: 1.5em;
+    font-size:35px;
+    font-weight: 600;
+    /* font-style: italic; */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0px;
+    margin-right: 510px;
+}
+/* Selectores ID o de clase:Es un atributo que esta despues de una etiqueta html,ejemplo:<li><a class="link" las class se pueden repetir varias veces y se representa en css por un punto,el ID es unico en la etiqueta y no se puede repetir*/
+.link{
+    color: white;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 0px 10px;
+}
+/* El selector mas utilizado es el de class */
+.main{
+    height: 300px;
+    background-color:black;
+     background-image: url(../Img/IMG_2597.JPG);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    .main figure{
+        margin: 0px;
+        width: 500px;
+        height: inherit;
+    }
+    .main img{
+        width: inherit;
+        height: inherit;
+    }
+    .main span{
+        color: orangered;
+    }
+    h2{
+        margin: 0px;
+        padding: 1.5rem 0px;
+        text-transform: uppercase;
+        color: blue;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+.projects{
+    padding: 0px 1.5rem 10px 1.5rem;
+    background-color:#744bc525;
+}
+.project{
+    border: 2px solid black;
+    border-top: 2px black solid; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px blue;
+/* padding: 20px;
+display: flex; */
+padding: 2%;
+margin: 0px 0px 1.8rem 0px;
+/* margin: 0px 20px; */
+background-color: white;
+display: flex;
+justify-content:space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+a{
+    text-decoration:none;
+}
+.project-left{
+    width: 48%;
+}
+.project-title{
+    margin: 0 0 0.7rem 0;
+    font-size: 1.3rem;
+}
+.project-language, .project-date, .project-link, .project-description{
+    margin: 0.7rem 0;
+}
+.project-container_image{
+width: 48%;
+margin: 0;
+}
+.project-image{
+    width: 100%;
+}
+.experiences{
+    padding: 0px 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.experience{
+    border: 1px solid blue;
+    margin:0px 2% 40px 0px;
+    /* width: 480px; */
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;   
+}
+.experience-container_image{
+margin: 0px;
+width: 100%;
+height: 0;
+padding-top: 56.25%;
+position: relative;
+/* height: 200; */
+}
+.experience-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+}
+.experience-down{
+    margin: 0 1.5rem 1.3rem 1.5rem;
+    margin-top: -2rem;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.experience-title{
+    margin: 0px;
+}
+.experience-description{
+    text-align: left;
+}
+.experience-down button{
+    border:1px solid blue;
+    padding:10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:#c8edf0 ;
+}
+.experience-mainTitle{
+    /* margin-left: 30px; */
+    margin: 0px;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+.contact{
+    display: flex;
+    background-color: rgb(227, 246, 246);
+    padding:1.7rem 2.5rem 1.7rem 2.5rem ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-form input{
+    border: gray;
+    border-style: solid;
+    padding: 5px 5px 5px 35px;
+    border-radius: 5px;
+    background-image: url(../Img/email.jpg);
+    background-repeat: no-repeat;
+background-size: 25px 25px;
+background-position-y: center;
+background-position-x: 5px;
+outline: none;
+margin-top: 20px;
+}
+.contact-form button{
+    display: block;
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.contact-form h2{
+    padding: 0px;
+}
+.redes{
+    /* border: 1px solid red; */
+    display: flex;   
+}
+.redes-link{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    margin-left: 20px;
+}
+.redes-link.github{
+background-image: url(../Img/github.jpg);
+background-size: 50px 50px;
+}
+.redes-link.facebook{
+    background-image: url(../Img/facebook.jpg);
+    background-size: 50px 50px;
+}
+.redes-link.instagram{
+    background-image: url(../Img/instagram.jpg);
+    background-size: 50px 50px;
+}
+.redes-link.twitter{
+    background-image: url(../Img/twitter.jpg);
+    background-size: 50px 50px ;
+}
+.footer{
+    background-color: #8675a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2.5rem;
+    flex-wrap: wrap;
+}
+.footer-details{
+    display: flex;
+    align-items: center;
+}
+.footer-details img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.wrapper{
+   max-width: 1000px;
+   flex: 1;
+    border: 1px solid red;
+    margin: 0px auto;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+}
+@media screen and (max-width:1024px){
+    .experience-mainTitle{
+        /* margin-left: 30px; */
+        margin: 0px;
+        padding: 1.5rem 0 1.5rem 1.5rem;
+    }
+    .wrapper.especial{
+        margin: 0;
+    }
+    .main{
+        height: auto;
+    }
+    .main figure img{
+        position: absolute;
+    }
+}
+@media screen and (max-width:767px){
+    .container_menu-hamburguer{
+        display: block;
+    }
+    .menu{
+        position: fixed;  
+        z-index: 300;
+        background-color:rgba(0, 0, 255, 0.398);
+        top: 0;
+        left: -100vw;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;
+      }
+.header{
+    height: auto;
+    display: block;
+}
+ul{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.menu.menu_active{
+    left: 0;
+}
+.link{
+    justify-content: center;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    font-size: 2rem;
+    color: chartreuse;
+    text-shadow: 5px 5px 5px rgb(213, 8, 8);
+}
+.link:hover{
+    background-color: blue;
+}
+.header figure{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px;
+}
+.project{
+    display: block;
+    font-size: 16px;
+    box-shadow: 0px 0px 8px cyan;
+}
+.project-left{
+    width: auto;
+}
+.project-container_image{
+    width: auto;
+}
+.project-title{
+    font-size: 1.2em;
+}
+.project-description{
+    font-size: 1.1em;
+}
+.project-language, .project-date, .project-link, .project-description{
+    margin: 0.6rem 0;
+}
+.projects h2{
+    padding: 1.3rem 0;
+    font-size: 1.5rem;   
+}
+.experiences{
+    display: block;
+    padding: 3%;
+}
+.experience{
+    width: 100%;
+    margin: 0px 2% 3rem 0px;
+}
+.experience-mainTitle{
+    font-size: 1.5rem;
+    padding: 1.3rem 0 1.3rem 1.5rem; 
+}
+}
+
+@media screen and (max-width:572px){
+    .contact{
+        justify-content: center;
+        padding: 1.7rem 2.5rem 0.5rem 2.5rem;
+    }
+    .contact-form{
+        text-align: center;
+        /* margin: 0; */
+    }
+    .contact-form button{
+        margin: 1rem auto 1.2rem auto;
+    }
+    .redes-link{
+        margin-bottom: 1rem;
+    }
+    .redes{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer-details{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .projects{
+        padding: 0px 1.2rem 6px 1.2rem;
+    }
+.project{
+    box-shadow: 0px 0px 6px red;
+    padding: 3%;
+}
+.projects h2{
+    padding: 1.1rem 0;
+    font-size: 1.4rem;
+}
+.project-title{
+    font-size: 1.2rem;
+}
+.project-language, .project-date, .project-link, .project-description{
+    margin: 0.6rem 0;
+    font-size: 1rem;
+}
+.link{
+    padding: 0.5em 0;
+}
+.experiences{
+    padding: 0px 1.2rem;
+}
+.experience{
+    margin: 0px 2% 2.5rem 0px;
+}
+.experience-down{
+    padding: 1rem;
+    margin: 0 1.5rem 1.3rem 1.5rem;
+    margin-top: -1.5rem;
+}
+.experience-mainTitle{
+    font-size: 1.4rem;
+    padding: 1.1rem 0 1.1rem 1.2rem; 
+}
+.contact, .footer{
+    padding: 1rem 1.3rem 0.5r 1.3rem;
+}
+}
+@media screen and (max-width:320px){
+.project{
+    box-shadow: 0px 0px 4px #66ff00;
+    margin-bottom: 0.9rem;
+}
+.link{
+    padding: 0.4em 0;
+}
+.projects{
+    padding: 0px 0.9rem 6px 0.9rem;
+}
+.projects h2{
+    padding: 1.1rem 0;
+    font-size: 1.3rem;
+}
+.project-title{
+    font-size: 1.1rem;
+}
+.project-language, .project-date, .project-link, .project-description{
+    margin: 00.6rem 0;
+    font-size: 0.9rem;
+}
+.experiences{
+    padding: 0px 0.9rem;
+}
+.experience{
+    margin: 0px 2% 2rem 0px;
+}
+.experience-down{
+    padding: 0.8rem;
+    margin: 0 1rem 1.3rem 1rem;
+    margin-top: -1.5rem;
+}
+.experience-title{
+    font-size: 1.1rem;
+}
+.experience-description{
+    font-size: 0.9rem;
+}
+.experience-mainTitle{
+    font-size: 1.3rem;
+    padding: 1.1rem 0 1.1rem 0.9rem;
+}
+.redes-link.github{
+    margin-left: 0;
+}
+.contact, .footer{
+    padding: 1rem 1rem 0.5r 1rem;
+}
+}
+
+.content_video-youtube{
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.video_youtube{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100;
+}
+.video_youtube:hover{
+    z-index: 8;
+}
