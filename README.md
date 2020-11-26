@@ -1,3 +1,1 @@
-# Portafolio-Carlos_Cortez_Romero
-Portafolio de presentación Carlos Cortez 
-Carlos_Cortez / Portafolio_Web
+Presentacion del portafolio Web  de Carlos_Cortez_Romero
