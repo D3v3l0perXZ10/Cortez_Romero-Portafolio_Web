@@ -68,7 +68,7 @@ h1{
     letter-spacing: 2px;
     text-transform: capitalize;
     margin: 0px;
-    margin-right: 510px;
+    /* margin-right: 510px; */
 }
 /* Selectores ID o de clase:Es un atributo que esta despues de una etiqueta html,ejemplo:<li><a class="link" las class se pueden repetir varias veces y se representa en css por un punto,el ID es unico en la etiqueta y no se puede repetir*/
 .link{
@@ -83,10 +83,10 @@ h1{
 .main{
     height: 300px;
     background-color:black;
-     background-image: url(../Img/IMG_2597.JPG);
+     /* background-image: url(../Img/IMG_2597.JPG);
     background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -163,7 +163,7 @@ margin: 0;
     border: 1px solid blue;
     margin:0px 2% 40px 0px;
     /* width: 480px; */
-    width: 48%;
+    width: 46%;
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
